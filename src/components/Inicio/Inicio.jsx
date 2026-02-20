@@ -8,12 +8,12 @@ function Inicio() {
       <motion.div
         className={style.boxInicio}
         initial={{ y: 200, opacity: 0 }}
-        animate={{ y: 5, opacity: 90 }}
-        transition={{ duration: 0.8 }}
+        animate={{ y: 0, opacity: 10 }}
+        transition={{ duration: 0.8}}
       >
         
-        <h1 className={style.tituloInicio}>Julia Vaz</h1>
-         <h2 className={style.subTitulo}>Desenvolvedora Frontend</h2> 
+        <h1 className={style.tituloInicio}>JULIA VAZ</h1>
+         <h2 className={style.subTitulo}>DESENVOLVEDORA FRONTEND </h2> 
         <p className={style.textoInicio}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
           unde placeat modi quam fugit tempore pariatur, nam voluptatum natus
@@ -25,8 +25,8 @@ function Inicio() {
         className={style.imgPerfil}
         src={imgPerfil}
         alt=""
-        initial={{ y: -200, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
+        initial={{ y: 200, opacity: 0 }}
+        animate={{ y: 0, opacity: 10 }}
         transition={{ duration: 0.8 }}
       />
     </section>
