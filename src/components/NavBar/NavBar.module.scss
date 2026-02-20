@@ -1,0 +1,26 @@
+.navBarHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: #000000;
+    text-decoration: none;
+    border-bottom: 0.1rem solid #808582;
+    border-top:  0.1rem solid #808582;
+    margin-top: 1rem;
+    font-family: "Inter", sans-serif;
+
+    a {
+        color: #ffffff;
+    }
+
+    a:hover {
+        color: #808582;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+}
