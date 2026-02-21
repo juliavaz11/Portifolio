@@ -11,14 +11,14 @@ function Projetos() {
       id: 1,
       imagem: PetAdopt,
       nome: "PetAdopt",
-      descricao: "Projeto criado para adoção de Pets",
+      descricao: "Projeto criado para adoção de Pets. Este projeto foi desenvolvido com HTML, SCSS, JAVASCRIPT",
     },
 
     {
       id: 2,
       imagem: ReciclaTech,
       nome: "ReciclaTech",
-      descricao: "Projeto focado para facilitar doações de eletrônicos",
+      descricao: "Projeto focado para facilitar doações de eletrônicos. Desenvolvido com ",
     },
 
     {
