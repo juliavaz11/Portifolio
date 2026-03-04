@@ -17,12 +17,12 @@ function Inicio() {
         transition={{ duration: 0.8 }}
       >
         <h1 className={style.tituloInicio}>JULIA VAZ</h1>
-        <h2 className={style.subTitulo}>DESENVOLVEDORA FRONTEND </h2>
+        <h2 className={style.subTitulo}>DESENVOLVEDORA FRONT-END </h2>
         <p className={style.textoInicio}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
           unde placeat modi quam fugit tempore pariatur, nam voluptatum natus
           iste sit maiores debitis, delectus suscipit recusandae harum.
-          Corporis, impedit repudiandae.
+          Corporis, impedit repudiandae.</p>
           <div className={style.icones}>
             <FaHtml5 className={style.html}/>
             <SiSass className={style.scss}/>
@@ -30,7 +30,7 @@ function Inicio() {
             <SiVite className={style.vite} />
             <IoLogoJavascript className={style.javascript}/>
           </div>
-        </p>
+        
       </motion.div>
       <motion.img
         className={style.imgPerfil}
