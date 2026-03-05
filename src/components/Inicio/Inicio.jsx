@@ -19,18 +19,17 @@ function Inicio() {
         <h1 className={style.tituloInicio}>JULIA VAZ</h1>
         <h2 className={style.subTitulo}>DESENVOLVEDORA FRONT-END </h2>
         <p className={style.textoInicio}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
-          unde placeat modi quam fugit tempore pariatur, nam voluptatum natus
-          iste sit maiores debitis, delectus suscipit recusandae harum.
-          Corporis, impedit repudiandae.</p>
-          <div className={style.icones}>
-            <FaHtml5 className={style.html}/>
-            <SiSass className={style.scss}/>
-            <IoLogoReact className={style.react} />
-            <SiVite className={style.vite} />
-            <IoLogoJavascript className={style.javascript}/>
-          </div>
-        
+          Criando interfaces responsivas e transformando ideias em experiências
+          digitais. Movida por curiosidade, aprendizado contínuo e paixão por
+          tecnologia.
+        </p>
+        <div className={style.icones}>
+          <FaHtml5 className={style.html} />
+          <SiSass className={style.scss} />
+          <IoLogoReact className={style.react} />
+          <SiVite className={style.vite} />
+          <IoLogoJavascript className={style.javascript} />
+        </div>
       </motion.div>
       <motion.img
         className={style.imgPerfil}

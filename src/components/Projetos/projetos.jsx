@@ -60,7 +60,7 @@ function Projetos() {
             <img src={item.imagem} alt={item.nome} />
             <h2>{item.nome}</h2>
             <p className={styles.textoCards}>{item.descricao}</p>
-            <button className={styles.btnVisitar}>VISITAR</button>
+            <button className={styles.btnVisitar}>ACESSAR</button>
           </article>
         ))}
       </motion.section>
