@@ -8,7 +8,6 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Tempo que o loading vai aparecer (ex: 2 segundos)
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, 1000);
