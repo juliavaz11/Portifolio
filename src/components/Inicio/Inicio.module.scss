@@ -9,7 +9,7 @@
 
     .tituloInicio {
         font-size: 5rem;
-         font-family: "Righteous", sans-serif;
+        font-family: "Righteous", sans-serif;
         font-weight: 700;
         text-align: start;
         letter-spacing: 1rem;
@@ -38,53 +38,57 @@
         width: 80%;
         font-family: "Inter", sans-serif;
         font-size: 1.2rem;
-         color: #e8ece8;
+        color: #e8ece8;
     }
 }
 
 .imgPerfil {
     width: 20%;
     border-radius: 50%;
-    box-shadow:
-        0 0 30px #1a1b1b,
-        0 0 30px rgba(99, 99, 102, 0.5);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: solid 0.5px #808582;
+    
 }
 
 .imgPerfil:hover {
-    transform: scale(1.1);
     box-shadow:
         0 0 40px #797c7b,
         0 0 60px rgba(31, 34, 33, 0.4);
 }
+
 .icones {
-  display: flex;
-  justify-content: space-around;
-  width: 40%;
-  margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-top: 0.5rem;
 
-  svg {
-    font-size: 2rem;
-    color: white;
-    transition: all 0.3s ease;
-  }
+    svg {
+        font-size: 2rem;
+        color: white;
+        transition: all 0.3s ease;
+    }
 
-  svg:hover {
-    transform: scale(1.5);
-  }
+    svg:hover {
+        transform: scale(1.5);
+    }
 }
+
 .html:hover {
-    color: #e34f26;;
+    color: #e34f26;
+    ;
 }
-.scss:hover{
+
+.scss:hover {
     color: #cc6699;
 }
+
 .javascript:hover {
     color: #dbcf1d;
 }
-.vite:hover{
+
+.vite:hover {
     color: #cf1dc6;
 }
-.react:hover{
+
+.react:hover {
     color: #1ab6e6;
 }
