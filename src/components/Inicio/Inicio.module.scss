@@ -46,14 +46,17 @@
     width: 20%;
     border-radius: 50%;
     border: solid 0.5px #808582;
-    
-}
-
-.imgPerfil:hover {
     box-shadow:
         0 0 40px #797c7b,
         0 0 60px rgba(31, 34, 33, 0.4);
+    
 }
+
+// .imgPerfil:hover {
+//     box-shadow:
+//         0 0 40px #797c7b,
+//         0 0 60px rgba(31, 34, 33, 0.4);
+// }
 
 .icones {
     display: flex;
