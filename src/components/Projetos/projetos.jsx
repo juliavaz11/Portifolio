@@ -49,8 +49,8 @@ function Projetos() {
     <>
       <motion.div
         className={styles.tituloProjetos}
-        initial={{ y: -100, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
+        initial={{ x: 100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
         <h1>PROJETOS</h1>

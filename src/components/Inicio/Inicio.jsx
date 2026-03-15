@@ -24,11 +24,30 @@ function Inicio() {
           tecnologia.
         </p>
         <div className={style.icones}>
-          <FaHtml5 className={style.html} />
-          <SiSass className={style.scss} />
-          <IoLogoReact className={style.react} />
-          <SiVite className={style.vite} />
-          <IoLogoJavascript className={style.javascript} />
+          <div className={style.iconItem}>
+            <FaHtml5 className={style.html} />
+            <p>HTML</p>
+          </div>
+
+          <div className={style.iconItem}>
+            <SiSass className={style.scss} />
+            <p>SCSS</p>
+          </div>
+
+          <div className={style.iconItem}>
+            <IoLogoReact className={style.react} />
+            <p>React</p>
+          </div>
+
+          <div className={style.iconItem}>
+            <SiVite className={style.vite} />
+            <p>Vite</p>
+          </div>
+
+          <div className={style.iconItem}>
+            <IoLogoJavascript className={style.javascript} />
+            <p>JavaScript</p>
+          </div>
         </div>
       </motion.div>
       <motion.img
