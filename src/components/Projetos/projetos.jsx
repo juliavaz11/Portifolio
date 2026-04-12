@@ -36,7 +36,7 @@ function Projetos() {
       imagem: <PiTreeFill />,
       nome: "VerdeAção",
       descricao:
-        "Verde Ação é um projeto que conecta pessoas interessadas em participar de ações voluntárias, incentivando o engajamento social e ambiental. Desenvolvido com HTML e SCSS, o site apresenta uma estrutura organizada e um design responsivo, proporcionando uma navegação clara e acessível. ",
+        "Verde Ação é um projeto que conecta pessoas interessadas em participar de ações voluntárias, incentivando o engajamento social e ambiental. Desenvolvido com HTML e SCSS, Este foi o primeiro projeto que desenvolvi durante minha formação na Vai na Web. ",
       link: "https://verde-acao-empower.vercel.app",
       },
     {
