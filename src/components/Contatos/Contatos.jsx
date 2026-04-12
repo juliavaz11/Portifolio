@@ -13,6 +13,7 @@ function Contatos() {
       id: 1,
       item: <IoLogoLinkedin />,
       titulo: "LinkedIn",
+      link: "https://www.linkedin.com/in/julia-vazz/",
     },
     {
       id: 2,
@@ -23,11 +24,13 @@ function Contatos() {
       id: 3,
       item: <FaSquareGithub />,
       titulo: "GitHub",
+      link: "https://github.com/juliavaz11",
     },
     {
       id: 4,
       item: <FaSquareWhatsapp />,
       titulo: "WhatsApp",
+      link: "https://wa.me/5521968731688"
     },
   ]);
 
@@ -50,10 +53,10 @@ function Contatos() {
         transition={{ duration: 0.6 }}
       >
         {contatos.map((item) => (
-          <article key={item.id} className={styles.cardContatos}>
+          <a key={item.id} href={item.link} target="_blank" rel="noopener noreferrer" className={styles.cardContatos}>
             {item.item}
             <h2>{item.titulo}</h2>
-          </article>
+          </a>
         ))}
       </motion.section>
     </>

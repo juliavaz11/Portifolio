@@ -15,11 +15,12 @@ function Projetos() {
   const [projetos, setProjetos] = useState([
     {
       id: 1,
-      imagem: <FaPaw className={styles.paw} />,
+      imagem: <FaPaw/>,
       nome: "PetAdopt",
       descricao:
         "Projeto desenvolvido com o objetivo de facilitar a adoção de pets, conectando animais que precisam de um lar a pessoas interessadas em adotar. A aplicação foi construída utilizando HTML para a estruturação das páginas, SCSS para a estilização e organização visual, e JavaScript para adicionar interatividade e dinamismo ao site.",
-    },
+      link: "https://pet-adopt-taupe.vercel.app",
+      },
 
     {
       id: 2,
@@ -27,6 +28,7 @@ function Projetos() {
       nome: "ReciclaTech",
       descricao:
         "Plataforma criada para incentivar a doação de eletrônicos, facilitando a conexão entre doadores e interessados. Desenvolvida com HTML para estruturação e SCSS para um design moderno, limpo e responsivo.",
+      link: "https://recicla-tech-m1-flame.vercel.app",
     },
 
     {
@@ -35,14 +37,16 @@ function Projetos() {
       nome: "VerdeAção",
       descricao:
         "Verde Ação é um projeto que conecta pessoas interessadas em participar de ações voluntárias, incentivando o engajamento social e ambiental. Desenvolvido com HTML e SCSS, o site apresenta uma estrutura organizada e um design responsivo, proporcionando uma navegação clara e acessível. ",
-    },
+      link: "https://verde-acao-empower.vercel.app",
+      },
     {
       id: 4,
       imagem: <TbHeartHandshake />,
       nome: "Connect",
       descricao:
         "Connect foi meu primeiro projeto desenvolvido em React, criado para conectar empresas a projetos sociais impactantes. A plataforma une empresas, pessoas e organizações com o objetivo de gerar impacto positivo e transformar realidades por meio de ações sociais.",
-    },
+      link: "https://desafio-connect.vercel.app"
+      },
   ]);
 
   return (
@@ -65,9 +69,11 @@ function Projetos() {
       >
         {projetos.map((item) => (
           <article key={item.id} className={styles.cardProjetos}>
-            {item.imagem} <h2>{item.nome}</h2>
+            {item.imagem}
+            <h2>{item.nome}</h2>
             <p className={styles.textoCards}>{item.descricao}</p>
-            <button className={styles.btnVisitar}>ACESSAR</button>
+
+            <a href={item.link} target="_blank" rel="noopener noreferrer" className={styles.btnVisitar}> ACESSAR </a>
           </article>
         ))}
       </motion.section>
