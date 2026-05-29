@@ -40,7 +40,6 @@
 
     }
     .textoCards {
-     //   border: solid;
         text-align: justify;
         height: 30%;
         width: 95%;
@@ -73,4 +72,15 @@
     border-radius: 0.3rem;
     cursor: pointer;
     
+}
+@media (min-width: 1280px) and (max-width: 1366px) {
+    .cardProjetos {
+        height: 55vh;
+        display: flex;
+        justify-content: space-around;
+
+        .textoCards {
+            text-align: justify;
+        }
+    }
 }

@@ -94,6 +94,7 @@
 .scss:hover {
     color: #cc6699;
 }
+
 .javascript:hover {
     color: #dbcf1d;
 }
@@ -104,4 +105,25 @@
 
 .react:hover {
     color: #1ab6e6;
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+    .Inicio {
+        display: flex;
+        justify-content: space-around;
+
+        .tituloInicio {
+            width: 45vw;
+        }
+
+        .subTitulo {
+            width: 45vw;
+        }
+        .textoInicio {
+            width: 45vw;
+        }
+        .icones {
+            width: 25vw;
+        }
+    }
 }

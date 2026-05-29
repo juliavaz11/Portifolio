@@ -1,9 +1,4 @@
 import { useState } from "react";
-// import PetAdopt from "../../assets/petadopt.png";
-// import ReciclaTech from "../../assets/reciclatech.jpg";
-// import VerdeAcao from "../../assets/verdeacao.jpg";
-// import Connect from "../../assets/connect.png";
-
 import { FaPaw } from "react-icons/fa6";
 import { RiRecycleFill } from "react-icons/ri";
 import { PiTreeFill } from "react-icons/pi";
@@ -18,7 +13,7 @@ function Projetos() {
       imagem: <FaPaw/>,
       nome: "PetAdopt",
       descricao:
-        "Projeto desenvolvido com o objetivo de facilitar a adoção de pets, conectando animais que precisam de um lar a pessoas interessadas em adotar. A aplicação foi construída utilizando HTML para a estruturação das páginas, SCSS para a estilização e organização visual, e JavaScript para adicionar interatividade e dinamismo ao site.",
+        "Projeto desenvolvido com o objetivo de facilitar a adoção de pets, conectando animais que precisam de um lar a pessoas interessadas em adotar. A aplicação foi construída utilizando HTML, SCSS e JavaScript.",
       link: "https://pet-adopt-taupe.vercel.app",
       },
 
@@ -44,7 +39,7 @@ function Projetos() {
       imagem: <TbHeartHandshake />,
       nome: "Connect",
       descricao:
-        "Connect foi meu primeiro projeto desenvolvido em React, criado para conectar empresas a projetos sociais impactantes. A plataforma une empresas, pessoas e organizações com o objetivo de gerar impacto positivo e transformar realidades por meio de ações sociais.",
+        "Meu primeiro projeto desenvolvido em React, criado para conectar empresas a projetos sociais impactantes. A plataforma une empresas, pessoas e organizações com o objetivo de gerar impacto positivo e transformar realidades por meio de ações sociais.",
       link: "https://desafio-connect.vercel.app"
       },
   ]);
